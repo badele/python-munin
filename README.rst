@@ -29,6 +29,7 @@ Sample installation on Debian distribution
 
 .. code-block:: console
 
+  apt-get install python-mysqldb
   cd /etc/munin/plugins
   ln -s /usr/local/src/python-munin/plugins/mysql_replication mysql_replication
   vi /etc/munin/plugin-conf.d/mysql_replication # edit options
